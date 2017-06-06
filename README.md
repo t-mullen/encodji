@@ -16,6 +16,6 @@ Script tag:
 ## Usage
 
 ```javascript
-var emojiString = encodji.encode({a:1})
-var object = emojiString.decode(emojiString)
+var emojiString = encodji.encode({a:1}) // 
+var object = encodji.decode(emojiString)
 ```
