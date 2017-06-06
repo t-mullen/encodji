@@ -1,6 +1,6 @@
 {
   "name": "encodji",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Serialize Javascript objects into user-friendly emoji strings.",
   "main": "src/index.js",
   "directories": {
