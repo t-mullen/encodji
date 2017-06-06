@@ -1,0 +1,22 @@
+{
+  "name": "encodji",
+  "version": "1.0.0",
+  "description": "Serialize Javascript objects into user-friendly emoji strings.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "standard --fix src/** && tape test/*.js",
+    "build": "browserify src/index.js -s Encodji -o dist/encodji.js"
+  },
+  "author": "Thomas Mullen",
+  "license": "MIT",
+  "devDependencies": {
+    "standard": "^8.6.0",
+    "tape": "^4.6.3"
+  },
+  "dependencies": {
+    "lz-string": "^1.4.4"
+  }
+}
