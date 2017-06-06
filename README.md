@@ -4,7 +4,9 @@ Serialize Javascript objects into user-friendly emoji strings.
 ## Install
 
 Node or Browserify:
-`npm install --save encodji`
+```
+npm install --save encodji
+```
 
 Script tag:
 ```html
